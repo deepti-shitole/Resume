@@ -218,7 +218,7 @@
   \resumeSubheading
       {JSPM’S Imperial College of
 Engineering and Research ,Wagholi ,pune}{\small}
-      {B.E Computer Engineering  June 2023}\\
+      {B.E Computer Engineering -  8.72 CGPA } {2019 - 2023}\\
     \resumeItemListStart
         % \resumeItem{\textbf{Relevant Coursework:} Computer Vision, Advances in Machine Learning, Cognitive Computing and Natural Language Processing, Artificial Intelligence, Big Data Analytics, Data Warehousing and Data Mining, Bioinformatics, Embedded and IOT Lab.}
         % \resumeItem{\textbf{University of L'Aquila, Italy (UAQ):}}
@@ -228,7 +228,7 @@ Engineering and Research ,Wagholi ,pune}{\small}
     
       \resumeSubheading
       {Shri Gopinath Vidhyalaya Varvand}{\textbf{}}
-      {12th - PCM(Maharashtra Board)  }{June 2018 - June 2019}
+      {HSC - PCM(Maharashtra Board) 79.69 Percentage }{ 2018 -  2019}
     % \resumeItemListStart
     %     \resumeItem{\textbf{Summer School:} A 7-week lecture series with the theme of Industry 4.0, delineating the latest research in the disciplines of MedTech, Mass Customization, Digital Twins, ARVR, and Advanced Manufacturing.}
     % \resumeItemListEnd
@@ -237,7 +237,7 @@ Engineering and Research ,Wagholi ,pune}{\small}
     \resumeSubheading
       {Shri Bhanoba Vidyalaya Kusegaon 
 }{\small}
-      {10th - Maharashtra Board }{June 2016 - June 2017
+      {SSC - (Maharashtra Board) 89.40 Percentage}{ 2016 - 2017
 }\\
     % \resumeItemListStart
     %     % \resumeItem{\textbf{Relevant Coursework:} Computer Vision, Advances in Machine Learning, Cognitive Computing and Natural Language Processing, Artificial Intelligence, Big Data Analytics, Data Warehousing and Data Mining, Bioinformatics, Embedded and IOT Lab.}
@@ -253,7 +253,7 @@ Engineering and Research ,Wagholi ,pune}{\small}
 \smallskip
   \resumeSubHeadingListStart 
   \resumeSubheading
-      {Expleo Solutions Pvt. Ltd.}{\emph{April 2023 -- Present}}
+      {Expleo Solutions Pvt. Ltd.}{\emph{September 2023 -- Present}}
       {Associate Software Engineer}{}
       \resumeItemListStart
       \resumeItem{ \textbf{Project Experience - TWSM(TVS Motors)    $ 
