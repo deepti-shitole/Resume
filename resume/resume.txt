@@ -256,7 +256,7 @@ Engineering and Research ,Wagholi ,pune}{\small}
       {Expleo Solutions Pvt. Ltd.}{\emph{September 2023 -- Present}}
       {Associate Software Engineer}{}
       \resumeItemListStart
-      \resumeItem{ \textbf{Project Experience - TWSM(TVS Motors)    $ 
+      \resumeItem{ \textbf{Project Experience - TVSM(TVS Motors)    $ 
 | $ Duration 8 months} }
       \resumeItem{  \textbf{Skills Utilized:} Azure DevOps, Azure Cloud, Terraform, Docker, DevSecOps.}
       \resumeItem{ \textbf{Roles and Responsibilities:}Designed and implemented CI/CD pipelines in Azure DevOps to automate build, test, and deployment processes for Java-based applications, resulting in increased efficiency and reduced time-to-market. }
