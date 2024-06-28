@@ -147,8 +147,8 @@
 \begin{center}
     \textbf{\Huge \scshape Deepti Shitole} \\ \vspace{5pt} 
     \small +91 9307262811 $|$ \href{mailto:deeptishitole96@gmail.com}{\underline{deeptishitole96@gmail.com}} $|$ 
-    % \href{https://github.com/gauravd06}{\underline{github.com/gauravd06}} $|$
-    \href{https://www.linkedin.com/in/deepti-shitole-a1b0b6224/}{\underline{linkedin.com/in//deepti-shitole}}
+     \href{https://github.com/deepti-shitole}{\underline{https://github.com/deepti-shitole}} $|$
+    \href{https://www.linkedin.com/in/deepti-shitole-a1b0b6224/}{\underline{linkedin.com/in/deepti-shitole}}
 \end{center}
 
 
@@ -253,13 +253,13 @@ Engineering and Research ,Wagholi ,pune}{\small}
 \smallskip
   \resumeSubHeadingListStart 
   \resumeSubheading
-      {Expleo Solutions Pvt. Ltd.}{\emph{September 2023 -- Present}}
+      {Expleo Solutions Pvt. Ltd. Pune}{\emph{September 2023 -- Present}}
       {Associate Software Engineer}{}
       \resumeItemListStart
       \resumeItem{ \textbf{Project Experience - TVSM(TVS Motors)    $ 
 | $ Duration 8 months} }
-      \resumeItem{  \textbf{Skills Utilized:} Azure DevOps, Azure Cloud, Terraform, Docker, DevSecOps.}
-      \resumeItem{ \textbf{Roles and Responsibilities:}Designed and implemented CI/CD pipelines in Azure DevOps to automate build, test, and deployment processes for Java-based applications, resulting in increased efficiency and reduced time-to-market. }
+      \resumeItem{  \textbf{Skills Utilized:}  Azure Cloud, Jenkins, Terraform.}
+      \resumeItem{ \textbf{Roles and Responsibilities:}Designed and implemented CI/CD pipelines in Jenkins to automate build, test, and deployment processes for Java-based applications, resulting in increased efficiency and reduced time-to-market. }
       \resumeItem{ \textbf{}Developed Terraform scripts to provision and configure Azure resources such as VMs, storage accounts, key vaults, Azure Kubernetes clusters, and ACR, adhering to infrastructure as code (IaC) best practices.}
        % \resumeItem{}
         \resumeItem{Troubleshooted and resolved issues related to build and deployment pipelines, ensuring smooth and reliable software delivery.  \textbf{}}
@@ -413,13 +413,16 @@ Engineering and Research ,Wagholi ,pune}{\small}
      \resumeItemListEnd
     \resumeSubHeadingListEnd
 %-----------PROGRAMMING SKILLS------------
-\section{Internship}
+\section{Personal Project}
 \resumeSubHeadingListStart
   \resumeProjectHeading
-  {\textbf{} \textit{Expleo}}{April 2023 - July 2023}
+  {\textbf{} \textit{}}{}
   \resumeItemListStart
-    \resumeItem{Completed comprehensive DevOps training covering topics such as CI/CD pipelines, containerization, infrastructure automation, and cloud management.}
-    \resumeItem{Developed proof of concept projects to showcase DevOps principles and practices in action.}
+   \resumeItemListStart
+      \resumeItem{ \textbf{Project Title - Automated CI/CD DevSecOps Pipeline for Java Web Application 
+} }
+    \resumeItem{  \textbf{Skills Utilized:} AWS, Jenkins, Docker, EKS, ArgoCD, SonarQube, Trivy.}
+     \resumeItem{ \textbf{Description:}Developed and deployed a fully automated CI/CD DevSecOps pipeline for a Java web application leveraging Jenkins, AWS, GitHub, Docker, EKS, and ArgoCD. Integrated SonarQube for code quality analysis and Trivy for container security scanning. }
   \resumeItemListEnd
 \resumeSubHeadingListEnd
 
@@ -435,8 +438,8 @@ Engineering and Research ,Wagholi ,pune}{\small}
     \textbf{Tools}{: \badge[darkgoldenrod]{Github}
     \badge[darkgoldenrod]{Github Actions}
     \badge[darkgoldenrod]{Jenkins} 
-    \badge[darkgoldenrod]{Terraform}
-    \badge[darkgoldenrod]{Docker}  \badge[darkgoldenrod]{VS Code} \badge[darkgoldenrod]{Eclipse}  } \\
+    \badge[darkgoldenrod]{Docker}
+    \badge[darkgoldenrod]{Kubernetes}  \badge[darkgoldenrod]{Terraform} \badge[darkgoldenrod]{VS Code}  } \\
    
      } 
     % \smallskip
@@ -444,8 +447,8 @@ Engineering and Research ,Wagholi ,pune}{\small}
     
     %  } 
      \smallskip
-     \textbf{Clouds}{: \badge[darkgoldenrod]{AWS (EC2, VPC, S3)} \badge[darkgoldenrod]{Azure (VM, Networking, Monitor, KeyVault)} 
-     \badge[darkgoldenrod]{Azure Devops} 
+     \textbf{Clouds}{: \badge[darkgoldenrod]{AWS (EC2, IAM, VPC, S3, Load Balancer)} \badge[darkgoldenrod]{Azure (VM, Networking, Monitor, KeyVault)} 
+    
     
      } 
      \smallskip
