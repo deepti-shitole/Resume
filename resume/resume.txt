@@ -447,7 +447,7 @@ Engineering and Research ,Wagholi ,pune}{\small}
     
     %  } 
      \smallskip
-     \textbf{Clouds}{: \badge[darkgoldenrod]{AWS (EC2, IAM, VPC, S3, Load Balancer)} \badge[darkgoldenrod]{Azure (VM, Networking, Monitor, KeyVault)} 
+     \textbf{Clouds}{: \badge[darkgoldenrod]{AWS (EC2, IAM, VPC, S3, Lambda, Load Balancer)} \badge[darkgoldenrod]{Azure (VM, Networking, Monitor, KeyVault)} 
     
     
      } 
