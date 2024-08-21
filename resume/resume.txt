@@ -253,7 +253,7 @@ Engineering and Research ,Wagholi ,pune}{\small}
 \smallskip
   \resumeSubHeadingListStart 
   \resumeSubheading
-      {Expleo Solutions Pvt. Ltd. Pune}{\emph{September 2023 -- Present}}
+      {Expleo Solutions Pvt. Ltd. Pune}{\emph{August 2023 -- August 2024}}
       {Associate Software Engineer}{}
       \resumeItemListStart
       \resumeItem{ \textbf{Project Experience - TVSM(TVS Motors)    $ 
@@ -439,7 +439,7 @@ Engineering and Research ,Wagholi ,pune}{\small}
     \badge[darkgoldenrod]{Github Actions}
     \badge[darkgoldenrod]{Jenkins} 
     \badge[darkgoldenrod]{Docker}
-    \badge[darkgoldenrod]{Kubernetes}  \badge[darkgoldenrod]{Terraform} \badge[darkgoldenrod]{VS Code}  } \\
+      \badge[darkgoldenrod]{Terraform} \badge[darkgoldenrod]{VS Code}  } \\
    
      } 
     % \smallskip
