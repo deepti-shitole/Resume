@@ -433,7 +433,7 @@ Engineering and Research ,Wagholi ,pune}{\small}
     \small{\item{
     % \textbf{Frameworks}{: \badge[darkgoldenrod]{Django} \badge[darkgoldenrod]{Boostrap} \badge[darkgoldenrod]{Wix}  \badge[darkgoldenrod]{Android Studio}  \badge[darkgoldenrod]{Bootstrap} \badge[darkgoldenrod]{Django}} \\
     % \smallskip
-     \textbf{Languages}{: \badge[darkgoldenrod]{Java} \badge[darkgoldenrod]{Python} \badge[darkgoldenrod]{ShellScript} \badge[darkgoldenrod]{SQL}  \badge[darkgoldenrod]{HTML} \badge[darkgoldenrod]{CSS}} \\
+     \textbf{Languages}{: \badge[darkgoldenrod]{Java} \badge[darkgoldenrod]{Python} \badge[darkgoldenrod]{ShellScript} \badge[darkgoldenrod]{SQL}  \badge[darkgoldenrod]{NoSQL(MongoDB)}  \badge[darkgoldenrod]{HTML} \badge[darkgoldenrod]{CSS}} \\
      \smallskip
     \textbf{Tools}{: \badge[darkgoldenrod]{Github}
     \badge[darkgoldenrod]{Github Actions}
