@@ -6,7 +6,620 @@
 % License : MIT
 %------------------------
 
+\documentclass[letterpaper,11pt]{article}% a mashup of hipstercv, friggeri and twenty cv
+% https://www.latextemplates.com/template/twenty-seconds-resumecv
+% https://www.latextemplates.com/template/friggeri-resume-cv
+
+\documentclass[lighthipster]{simplehipstercv}
+% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight, withoutsidebar
+% withoutsidebar
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, a4paper]{geometry}
+
+
+%------------------------------------------------------------------ Variablen
+
+\newlength{\rightcolwidth}
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
 \documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+%----------DO MARGIN ADJUSTMENT HERE---------------
+\usepackage[letterpaper,margin=1.05in]{geometry}
+%---------END OF MARGIN ADJUSTMENT-----------------
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\newtcbox{\badge}[1][red]{
+  on line, 
+  arc=2pt,
+  colback=#1!50!darkgoldenrod,
+  colframe=#1!50!darkgoldenrod,
+  fontupper=\color{black},
+  boxrule=1pt, 
+  boxsep=0pt,
+  left=6pt,
+  right=6pt,
+  top=2pt,
+  bottom=2pt
+}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand\fbox{\fcolorbox{gold(metallic)}{white}}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\definecolor{darkgoldenrod}{rgb}{0.93, 0.91, 0.67}
+\definecolor{goldenrod}{rgb}{0.72, 0.53, 0.04}
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{goldenrod}\titlerule \vspace{-5pt}]
+%"blue" is where you change section title colour
+%"red" is where you change underline rule colour
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheadingSpecial}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      {\small#3} & \textit{\small #4} \\
+      
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\definecolor{darkcandyapplered}{rgb}{0.64, 0.0, 0.0}
+
+\begin{center}
+    \textbf{\Huge \scshape DEEPTI SHITOLE} \\ \vspace{5pt} 
+    \small +91 9307262811 $|$ \href{mailto:deeptishitole96@gmail.com}{\underline{deeptishitole96@gmail.com}} $|$ 
+     \href{https://github.com/deepti-shitole}{\underline{https://github.com/deepti-shitole}} $|$
+    \href{https://www.linkedin.com/in/deepti-shitole-a1b0b6224/}{\underline{linkedin.com/in/deepti-shitole}}
+\end{center}
+
+
+%-----------PROJECTS-----------
+\section{Objective }
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+          {\textbf{
+} {}}{}
+          % \resumeItemListStart
+            \resumeItem{A motivated and enthusiastic individual with a year of hands-on experience in DevOps methodologies and tools. Seeking to leverage my skills in automation, cloud computing, and continuous integration/continuous deployment (CI/CD) to contribute effectively to a dynamic team environment.
+
+}
+            % \resumeItem{
+}
+            % \resumeItem{
+
+
+}
+            % \resumeItem{Framework Used - Django.}
+          % \resumeItemListEnd
+    
+          % \resumeProjectHeading
+          % {\textbf{
+} {}}{}
+          % \resumeItemListStart
+            % \resumeItem{
+}
+            % \resumeItem{
+}
+
+ % \resumeItem{
+
+
+
+
+
+
+
+% }
+            
+          \resumeItemListEnd
+          
+%          \resumeProjectHeading
+%           {\textbf{STOCK TREND PREDICTION USING MACHINE LEARNING} {}}{}
+%           \resumeItemListStart
+%             \resumeItem{Created system which can predict the stock trend.}
+%             \resumeItem{Worked on Data collection, Data pre-processing,Machine Learning etc and have used the LSTM model to make predictions.
+% }
+%             \resumeItem{Language Used - Python. }
+%             \resumeItem{libraries used - Yahoo Finance, NumPy, Pandas, TensorFlow etc. }
+%           \resumeItemListEnd
+          
+%         \resumeProjectHeading
+%           {\textbf{Youtub Video Downloader Using Python} {}}{}
+%           \resumeItemListStart
+%             \resumeItem{Created an app where we can download youtube videos, audio and playlist}
+%             \resumeItem{Language Used - Python.}
+%             \resumeItem{libraries used - Tkinter, Pytube etc. }
+%           \resumeItemListEnd
+
+     \resumeSubHeadingListEnd
+%-----------EDUCATION-----------
+\section{Education}
+\smallskip
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {JSPM’S Imperial College of
+Engineering and Research ,Wagholi ,pune}{\small}
+      {B.E Computer Engineering -  8.72 CGPA } {2019 - 2023}\\
+    \resumeItemListStart
+        % \resumeItem{\textbf{Relevant Coursework:} Computer Vision, Advances in Machine Learning, Cognitive Computing and Natural Language Processing, Artificial Intelligence, Big Data Analytics, Data Warehousing and Data Mining, Bioinformatics, Embedded and IOT Lab.}
+        % \resumeItem{\textbf{University of L'Aquila, Italy (UAQ):}}
+        % \resumeItem{\textbf{Lappeenranta University of Technology, Finland (LUT):}}
+    \resumeItemListEnd
+    \medskip
+    
+      \resumeSubheading
+      {Shri Gopinath Vidhyalaya Varvand}{\textbf{}}
+      {HSC - PCM(Maharashtra Board) 79.69 Percentage }{ 2018 -  2019}
+    % \resumeItemListStart
+    %     \resumeItem{\textbf{Summer School:} A 7-week lecture series with the theme of Industry 4.0, delineating the latest research in the disciplines of MedTech, Mass Customization, Digital Twins, ARVR, and Advanced Manufacturing.}
+    % \resumeItemListEnd
+    \medskip
+    
+    \resumeSubheading
+      {Shri Bhanoba Vidyalaya Kusegaon 
+}{\small}
+      {SSC - (Maharashtra Board) 89.40 Percentage}{ 2016 - 2017
+}\\
+    % \resumeItemListStart
+    %     % \resumeItem{\textbf{Relevant Coursework:} Computer Vision, Advances in Machine Learning, Cognitive Computing and Natural Language Processing, Artificial Intelligence, Big Data Analytics, Data Warehousing and Data Mining, Bioinformatics, Embedded and IOT Lab.}
+    %     \resumeItem{\textbf{Teaching Experience:} Hosted a 4-day computer vision basics workshop for teaching 59 students.}
+    %     \resumeItem{\textbf{Volunteering:} Presented an IoT and Computer Vision-based project titled 'Smart Shoe For The Visually Impaired' to underprivileged children through an exhibition and explained its working.}
+     
+    % \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+\smallskip
+  \resumeSubHeadingListStart 
+  \resumeSubheading
+      {Expleo Solutions Pvt. Ltd. Pune}{\emph{August 2023 -- August 2024}}
+      {Associate Software Engineer}{}
+      \resumeItemListStart
+        \resumeItem{ \textbf{Project Experience - TVSM (TVS Motors)    $|$ Duration: 8 months} }
+        \resumeItem{ \textbf{Skills Utilized:}  Azure Cloud, Jenkins, Terraform.}
+        \resumeItem{ \textbf{Roles and Responsibilities:} Designed and implemented CI/CD pipelines in Jenkins to automate build, test, and deployment processes for Java-based applications, resulting in increased efficiency and reduced time-to-market. }
+        \resumeItem{ Developed Terraform scripts to provision and configure Azure resources such as VMs, storage accounts, key vaults, Azure Kubernetes clusters, and ACR, adhering to infrastructure as code (IaC) best practices. }
+        \resumeItem{ Troubleshooted and resolved issues related to build and deployment pipelines, ensuring smooth and reliable software delivery. }
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\smallskip
+\section{Internship}
+\smallskip
+  \resumeSubHeadingListStart 
+  \resumeSubheading
+      {Expleo Solutions Pvt. Ltd. Pune}{\emph{April 2023 -- August 2023}}
+      {Intern}{}
+      \resumeItemListStart
+        \resumeItem{ \textbf{DevOps Internship} }
+        \resumeItem{ Provided access to KodeKloud platform for hands-on learning of DevOps tools, enabling the creation of Proof of Concepts (POCs) to demonstrate practical skills. }
+        \resumeItem{ Gained proficiency in various DevOps tools and practices, including CI/CD, containerization, and infrastructure as code (IaC), through hands-on projects and simulations. }
+        \resumeItem{
+Developed a CI pipeline in Jenkins to automate testing and building processes, and created a Dockerfile to containerize an application, ensuring consistent deployment across different environments. }
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+  %----------CO-CURRICULARS-----------------
+\section{Certifications}
+\smallskip
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+       {\textbf{Certifications}}{}
+  \resumeItemListStart
+    \resumeItem{\textbf{Microsoft Certified Azure Fundamentals}}
+    \resumeItem{\textbf{Soda Cloud Certificate}}
+    \resumeItem{\textbf{Mendix Rapid Developer Certificate}}
+  \resumeItemListEnd
+      %   \resumeItem{Neural Networks and Deep Learning, Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization, Structuring Machine Learning Projects, Convolutional Neural Networks, Sequence Models.}
+      % \resumeItemListEnd
+    % \resumeSubHeadingListEnd
+    % \resumeSubHeadingListStart
+      % \resumeProjectHeading
+      % {\textbf{}  {}}{}
+    % \resumeSubHeadingListEnd
+    % \resumeSubHeadingListStart
+      % \resumeProjectHeading
+      % {\textbf{} {}}{}
+    % \resumeSubHeadingListEnd
+    % \resumeSubHeadingListStart
+      % \resumeProjectHeading
+      % {\textbf{} 
+      % {}}{}
+    % \resumeSubHeadingListEnd
+    % \resumeSubHeadingListStart
+      % \resumeProjectHeading
+      % {\textbf{} {}}{}
+    % \resumeSubHeadingListEnd
+    % \resumeSubHeadingListStart
+    %   \resumeProjectHeading
+    %   {\textbf{Introduction to Sustainability} $|$ {Coursera}}{}
+     \resumeItemListEnd
+    \resumeSubHeadingListEnd
+%-----------PROGRAMMING SKILLS------------
+\section{Personal Projects}
+\smallskip
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{Automated CI/CD DevSecOps Pipeline for Java Web Application}}{}
+  \resumeItemListStart
+    \resumeItem{\textbf{Skills Utilized:} AWS, Jenkins, Docker, EKS, ArgoCD, SonarQube, Trivy.}
+    \resumeItem{\textbf{Description:} Developed and deployed a fully automated CI/CD DevSecOps pipeline for a Java web application leveraging Jenkins, AWS, GitHub, Docker, EKS, and ArgoCD. Integrated SonarQube for code quality analysis and Trivy for container security scanning.}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+
+%-----------PROGRAMMING SKILLS------------
+\section{Technical Skills}
+\smallskip
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    % \textbf{Frameworks}{: \badge[darkgoldenrod]{Django} \badge[darkgoldenrod]{Boostrap} \badge[darkgoldenrod]{Wix}  \badge[darkgoldenrod]{Android Studio}  \badge[darkgoldenrod]{Bootstrap} \badge[darkgoldenrod]{Django}} \\
+    % \smallskip
+     \textbf{Languages}{: \badge[darkgoldenrod]{Java} \badge[darkgoldenrod]{Python} \badge[darkgoldenrod]{ShellScript} \badge[darkgoldenrod]{SQL}  \badge[darkgoldenrod]{NoSQL(MongoDB)}  \badge[darkgoldenrod]{HTML} \badge[darkgoldenrod]{CSS}} \\
+     \smallskip
+    \textbf{Tools}{: \badge[darkgoldenrod]{Github}
+    \badge[darkgoldenrod]{Github Actions}
+    \badge[darkgoldenrod]{Jenkins} 
+    \badge[darkgoldenrod]{Docker}
+      \badge[darkgoldenrod]{Terraform} \badge[darkgoldenrod]{VS Code}  } \\
+   
+     } 
+    % \smallskip
+    %  \textbf{Libraries}{: \badge[darkgoldenrod]{Pandas} \badge[darkgoldenrod]{Numpy} \badge[darkgoldenrod]{Matplotlib} \badge[darkgoldenrod]{Tenserflow} \badge[darkgoldenrod]{LSTM}  \badge[darkgoldenrod]{Keras} \badge[darkgoldenrod]{Tkinter}
+    
+    %  } 
+     \smallskip
+     \textbf{Clouds}{: \badge[darkgoldenrod]{AWS (EC2, IAM, VPC, S3, Lambda, Load Balancer)} \badge[darkgoldenrod]{Azure (VM, Networking, Monitor, KeyVault)} 
+    
+    
+     } 
+     \smallskip
+     \textbf{Operating System}{: \badge[darkgoldenrod]{Linux} \badge[darkgoldenrod]{Windows}    
+    
+     } 
+     
+     
+    
+    }
+ \end{itemize}
+%  %----------CO-CURRICULARS-----------------
+% \section{Co-Curriculars}
+
+%     \resumeSubHeadingListStart
+    
+%       \resumeProjectHeading
+%       {\textbf{IEEE SheHacks Hackathon (2020)} $|$ {Rank: Top 30}}{}
+%       \resumeItemListStart
+%         \resumeItem{Created a telemedicine website 'HealthClick' with a usecase for hospitals to provide patients with support services.}
+%       \resumeItemListEnd
+      
+%       \resumeProjectHeading
+%       {\textbf{Bhopal Smart City Hackathon 2.0 (2019)} $|$ {Rank: Top 80}}{}
+%       \resumeItemListStart
+%         \resumeItem{Developed a project titled Smart Sadak which is a smart system that uses RFID tags
+%         for monitoring traffic and detecting traffic violations}
+%       \resumeItemListEnd
+      
+%       \resumeProjectHeading
+%       {\textbf{TEDxMITWPU (2018 - 2021)} $|$ {Role: Head of Speaker Curation}}{}
+%       \resumeItemListStart
+%         \resumeItem{Researched about and communicated with distinguished personalities about their work and helped them with the drafting of their TEDx speeches. Also contributed towards marketing and content writing.}
+%       \resumeItemListEnd
+
+%     \resumeSubHeadingListEnd
+    
+%-----------EXTRA CURRICULARS-------------
+% \section{Hobbies}
+% \smallskip
+% \begin{itemize}[leftmargin=0.15in, label={}]
+    % \small{\item{
+     % \textbf{Trekking}{: Sinhagad, Visapur, Raigad, Devgiri.} \\
+     % \smallskip
+      % \textbf{Arts and Crafts}{: Paiting, clay art.} \\
+      % \smallskip
+      % \textbf{Photography}\\
+      % \smallskip
+% \textbf{Cooking}\\
+     % \textbf{Gym}{: Practioner of Gym workouts.} \\
+     % \textbf{Dance}{: Comtemporary dancer for four years at a Studio, having performed in 8 organized dance shows.}
+    }}
+ \end{itemize}
+ 
+%-------------------------------------------
+\end{document}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.23\textwidth}
+\setlength{\rightcolwidth}{0.75\textwidth}
+
+%------------------------------------------------------------------
+\title{New Simple CV}
+\author{\LaTeX{} Ninja}
+\date{June 2019}
+
+\pagestyle{empty}
+\begin{document}
+
+
+\thispagestyle{empty}
+%-------------------------------------------------------------
+
+\section*{Start}
+
+\simpleheader{headercolour}{Jack}{Sparrow}{Captain}{white}
+
+
+
+%------------------------------------------------
+
+% this has to be here so the paracols starts..
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{1.5cm}
+\columnratio{0.23}[0.75]
+\begin{paracol}{2}
+\hbadness5000
+%\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+
+\paracolbackgroundoptions
+
+% 0.9,0.9,0.9 -- 0.8,0.8,0.8
+
+
+\footnotesize
+{\setasidefontcolour
+\flushright
+\begin{center}
+    \roundpic{jack.jpg}
+\end{center}
+
+\bg{cvgreen}{white}{About me}\\[0.5em]
+
+{\footnotesize
+\lorem\lorem\lorem}
+\bigskip
+
+\bg{cvgreen}{white}{personal} \\[0.5em]
+Jack Sparrow
+
+nationality: English 
+
+1690
+
+\bigskip
+
+\bg{cvgreen}{white}{Areas of specialization} \\[0.5em]
+
+Privateering ~•~ Bucaneering ~•~ Parler ~•~ Rum
+
+\bigskip
+
+
+
+\bigskip
+
+\bg{cvgreen}{white}{Interests}\\[0.5em]
+
+\lorem
+\bigskip
+
+\bg{cvgreen}{white}{Interests}\\[0.5em]
+
+\texttt{R} ~/~ \texttt{Android} ~/~ \texttt{Linux}
+
+\texttt{R} ~/~ \texttt{Android} ~/~ \texttt{Linux}
+
+\texttt{R} ~/~ \texttt{Android} ~/~ \texttt{Linux}
+
+\vspace{4em}
+
+\infobubble{\faAt}{cvgreen}{white}{jack@sparrow.org}
+\infobubble{\faTwitter}{cvgreen}{white}{@sparrow}
+\infobubble{\faFacebook}{cvgreen}{white}{Jack Sparrow}
+\infobubble{\faGithub}{cvgreen}{white}{sparrow}
+
+\phantom{turn the page}
+
+\phantom{turn the page}
+}
+%-----------------------------------------------------------
+\switchcolumn
+
+\small
+\section*{Short Resumé}
+
+\begin{tabular}{r| p{0.5\textwidth} c}
+    \cvevent{2018--2021}{Captain of the Black Pearl}{Lead}{East Indies \color{cvred}}{Finally got the goddamn ship back.\lorem\lorem\lorem}{disney.png} \\
+    \cvevent{2016--2017}{Captain of the Black Pearl}{Lead}{Tortuga \color{cvred}}{Found a secret treasure, lost the ship. \lorem\lorem}{medal.jpeg}
+\end{tabular}
+\vspace{3em}
+
+\begin{minipage}[t]{0.35\textwidth}
+\section*{Degrees}
+\begin{tabular}{r p{0.6\textwidth} c}
+    \cvdegree{1710}{Captain}{Certified}{Tortuga Uni \color{headerblue}}{}{disney.png} \\
+    \cvdegree{1715}{Bucaneering}{M.A.}{London \color{headerblue}}{}{medal.jpeg} \\
+    \cvdegree{1720}{Bucaneering}{B.A.}{London \color{headerblue}}{}{medal.jpeg}
+\end{tabular}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Programming}
+\begin{tabular}{r @{\hspace{0.5em}}l}
+     \bg{skilllabelcolour}{iconcolour}{html, css} &  \barrule{0.4}{0.5em}{cvpurple}\\
+     \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.55}{0.5em}{cvgreen} \\
+     \bg{skilllabelcolour}{iconcolour}{python} & \barrule{0.5}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{R} & \barrule{0.25}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{javascript} & \barrule{0.1}{0.5em}{cvpurple} \\
+\end{tabular}
+\end{minipage}
+
+\section*{Curriculum}
+\begin{tabular}{r| p{0.5\textwidth} c}
+    \cvevent{2018--2021}{Captain of the Black Pearl}{Lead}{East Indies \color{cvred}}{Finally got the goddamn ship back. \lorem}{disney.png} \\
+    \cvevent{2019}{Freelance Pirate}{Bucaneering}{Tortuga \color{cvred}}{This and that. The usual, aye?  \lorem}{medal.jpeg} \\
+\end{tabular}
+\vspace{3em}
+
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Certificates \& Grants}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth}}
+    1708 & Captain's Certificates \\
+    1710 & Travel grant \\
+    1715--1716 & Grant from the Pirate's Company
+\end{tabular}
+\bigskip
+
+\section*{Languages}
+\begin{tabular}{l | ll}
+\textbf{English} & C2 & {\phantom{x}\footnotesize mother tongue} \\
+\textbf{French} & C2 & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{1}{\tiny} \\
+\textbf{Spanish} & C2 & \pictofraction{\faCircle}{cvgreen}{1}{black!30}{3}{\tiny} \\
+\textbf{Italian} & C2 & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{1}{\tiny}
+\end{tabular}
+\bigskip
+
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Publications}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.7\textwidth}}
+    1729 & \emph{How I almost got killed by Lady Swan}, Tortuga Printing Press. \\
+    1720 & ``Privateering for Beginners'', in: \emph{The Pragmatic Pirate} (1/1720).
+\end{tabular}
+\bigskip
+
+\section*{Talks}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.6\textwidth}}
+    Nov. 1726 & ``How I lost my ship (\& and how to get it back)'', at: \emph{Annual Pirate's Conference} in Tortuga, Nov. 1726.
+\end{tabular}
+\end{minipage}
+
+
+
+
+
+
+\vfill{} % Whitespace before final footer
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+\setlength{\parindent}{0pt}
+\begin{minipage}[t]{\rightcolwidth}
+\begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
+{\small Jack Sparrow \icon{\faEnvelopeO}{cvgreen}{} The Black Pearl \icon{\faMapMarker}{cvgreen}{} Tortuga \icon{\faPhone}{cvgreen}{} 0099/333 5647380 \newline\icon{\faAt}{cvgreen}{} \protect\url{jack@sparrow.com}
+}
+\end{center}
+\end{minipage}
+
+\end{paracol}
+
+\end{document}
+
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
