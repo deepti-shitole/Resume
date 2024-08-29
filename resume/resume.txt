@@ -300,7 +300,7 @@ Developed a CI pipeline in Jenkins to automate testing and building processes, a
 \smallskip
     \resumeSubHeadingListStart
       \resumeProjectHeading
-       {\textbf{Certifications}}{}
+       {\textbf{}}{}
   \resumeItemListStart
     \resumeItem{\textbf{Microsoft Certified Azure Fundamentals}}
     \resumeItem{\textbf{Soda Cloud Certificate}}
