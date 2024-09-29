@@ -160,10 +160,24 @@
 
 \begin{center}
     \textbf{\Huge \scshape DEEPTI SHITOLE} \\ \vspace{5pt} 
-    \small +91 9307262811 $|$ \href{mailto:deeptishitole96@gmail.com}{\underline{deeptishitole96@gmail.com}} $|$ 
-     \href{https://github.com/deepti-shitole}{\underline{https://github.com/deepti-shitole}} $|$
-    \href{https://www.linkedin.com/in/deepti-shitole-a1b0b6224/}{\underline{linkedin.com/in/deepti-shitole}}
-\end{center}
+    \end{center}
+    
+
+
+%-----------PERSONAL DETAILS-----------
+\section{Personal Details}
+    \vspace{10pt} % Adds space between the section heading and the content
+
+    \resumeSubHeadingListStart
+        \item
+        \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l }
+            \textbf{Phone:} +91 9307262811 & \textbf{Email:} \href{mailto:deeptishitole96@gmail.com}{deeptishitole96@gmail.com} \\
+            \textbf{GitHub:} \href{https://github.com/deepti-shitole}{https://github.com/deepti-shitole} & \textbf{LinkedIn:} \href{https://www.linkedin.com/in/deepti-shitole-a1b0b6224/}{linkedin.com/in/deepti-shitole} \\
+            \textbf{Address:} At Post Patas, Daund, Pune & \textbf{Birth Date:} May 30, 2001 \\
+        \end{tabular*}
+    \resumeSubHeadingListEnd
+
+
 
 
 %-----------PROJECTS-----------
