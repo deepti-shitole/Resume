@@ -187,7 +187,7 @@
           {\textbf{
 } {}}{}
           % \resumeItemListStart
-            \resumeItem{A motivated and enthusiastic individual with a year of hands-on experience in DevOps methodologies and tools. Seeking to leverage my skills in automation, cloud computing, and continuous integration/continuous deployment (CI/CD) to contribute effectively to a dynamic team environment.
+            \resumeItem{Motivated and enthusiastic DevOps professional with 1 year of hands-on experience in automation, cloud computing, and CI/CD. Seeking to leverage my skills in a dynamic team environment.
 
 }
             % \resumeItem{
@@ -241,6 +241,7 @@
      \resumeSubHeadingListEnd
 %-----------EDUCATION-----------
 \section{Education}
+\vspace{5pt} % Add space here for a single line gap
 \smallskip
   \resumeSubHeadingListStart
   \resumeSubheading
@@ -248,36 +249,25 @@
 Engineering and Research ,Wagholi ,pune}{\small}
       {B.E Computer Engineering -  8.72 CGPA } {2019 - 2023}\\
     \resumeItemListStart
-        % \resumeItem{\textbf{Relevant Coursework:} Computer Vision, Advances in Machine Learning, Cognitive Computing and Natural Language Processing, Artificial Intelligence, Big Data Analytics, Data Warehousing and Data Mining, Bioinformatics, Embedded and IOT Lab.}
-        % \resumeItem{\textbf{University of L'Aquila, Italy (UAQ):}}
-        % \resumeItem{\textbf{Lappeenranta University of Technology, Finland (LUT):}}
     \resumeItemListEnd
     \medskip
     
       \resumeSubheading
       {Shri Gopinath Vidhyalaya Varvand}{\textbf{}}
       {HSC - PCM(Maharashtra Board) 79.69 Percentage }{ 2018 -  2019}
-    % \resumeItemListStart
-    %     \resumeItem{\textbf{Summer School:} A 7-week lecture series with the theme of Industry 4.0, delineating the latest research in the disciplines of MedTech, Mass Customization, Digital Twins, ARVR, and Advanced Manufacturing.}
-    % \resumeItemListEnd
     \medskip
     
     \resumeSubheading
       {Shri Bhanoba Vidyalaya Kusegaon 
 }{\small}
-      {SSC - (Maharashtra Board) 89.40 Percentage}{ 2016 - 2017
-}\\
-    % \resumeItemListStart
-    %     % \resumeItem{\textbf{Relevant Coursework:} Computer Vision, Advances in Machine Learning, Cognitive Computing and Natural Language Processing, Artificial Intelligence, Big Data Analytics, Data Warehousing and Data Mining, Bioinformatics, Embedded and IOT Lab.}
-    %     \resumeItem{\textbf{Teaching Experience:} Hosted a 4-day computer vision basics workshop for teaching 59 students.}
-    %     \resumeItem{\textbf{Volunteering:} Presented an IoT and Computer Vision-based project titled 'Smart Shoe For The Visually Impaired' to underprivileged children through an exhibition and explained its working.}
-     
-    % \resumeItemListEnd
+      {SSC - (Maharashtra Board) 89.40 Percentage}{ 2016 - 2017}\\
+    \resumeItemListEnd
   \resumeSubHeadingListEnd
 
-
 %-----------EXPERIENCE-----------
+\vspace{10pt} % Add space here to separate sections
 \section{Work Experience}
+\vspace{5pt} % Add space here for a single line gap
 \smallskip
   \resumeSubHeadingListStart 
   \resumeSubheading
@@ -287,13 +277,15 @@ Engineering and Research ,Wagholi ,pune}{\small}
         \resumeItem{ \textbf{Project Experience - TVSM (TVS Motors)    $|$ Duration: 8 months} }
         \resumeItem{ \textbf{Skills Utilized:}  Azure Cloud, Jenkins, Terraform.}
         \resumeItem{ \textbf{Roles and Responsibilities:} Designed and implemented CI/CD pipelines in Jenkins to automate build, test, and deployment processes for Java-based applications, resulting in increased efficiency and reduced time-to-market. }
-        \resumeItem{ Developed Terraform scripts to provision and configure Azure resources such as VMs, storage accounts, key vaults, Azure Kubernetes clusters, and ACR, adhering to infrastructure as code (IaC) best practices. }
+        \resumeItem{Collaborated with the team to develop Terraform scripts for provisioning and configuring Azure resources, contributing to the automation of infrastructure management and ensuring adherence to infrastructure as code (IaC) best practices. }
         \resumeItem{ Troubleshooted and resolved issues related to build and deployment pipelines, ensuring smooth and reliable software delivery. }
       \resumeItemListEnd
     \resumeSubHeadingListEnd
 
-\smallskip
+\vspace{10pt} % Add space here after Work Experience section
+
 \section{Internship}
+\vspace{5pt} % Add space here for a single line gap
 \smallskip
   \resumeSubHeadingListStart 
   \resumeSubheading
@@ -303,11 +295,50 @@ Engineering and Research ,Wagholi ,pune}{\small}
         \resumeItem{ \textbf{DevOps Internship} }
         \resumeItem{ Provided access to KodeKloud platform for hands-on learning of DevOps tools, enabling the creation of Proof of Concepts (POCs) to demonstrate practical skills. }
         \resumeItem{ Gained proficiency in various DevOps tools and practices, including CI/CD, containerization, and infrastructure as code (IaC), through hands-on projects and simulations. }
-        \resumeItem{
-Developed a CI pipeline in Jenkins to automate testing and building processes, and created a Dockerfile to containerize an application, ensuring consistent deployment across different environments. }
+        \resumeItem{ Developed a CI pipeline in Jenkins to automate testing and building processes, and created a Dockerfile to containerize an application, ensuring consistent deployment across different environments. }
       \resumeItemListEnd
     \resumeSubHeadingListEnd
 
+\vspace{10pt} % Add space here after Internship section
+
+%-----------PROGRAMMING SKILLS------------
+\section{Technical Skills}
+\vspace{5pt} % Add space here for a single line gap
+\smallskip
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: \badge[darkgoldenrod]{Java} \badge[darkgoldenrod]{Python} \badge[darkgoldenrod]{ShellScript} \badge[darkgoldenrod]{SQL}  \badge[darkgoldenrod]{NoSQL(MongoDB)}  \badge[darkgoldenrod]{HTML} \badge[darkgoldenrod]{CSS}} \\
+     \smallskip
+    \textbf{Tools}{: \badge[darkgoldenrod]{Github}
+    \badge[darkgoldenrod]{Github Actions}
+    \badge[darkgoldenrod]{Jenkins} 
+    \badge[darkgoldenrod]{Docker}
+    \badge[darkgoldenrod]{Terraform} 
+    \badge[darkgoldenrod]{Ansible} % Added Ansible here
+    \badge[darkgoldenrod]{VS Code}} \\
+    \smallskip
+    \textbf{Clouds}{: \badge[darkgoldenrod]{AWS (EC2, IAM, VPC, S3, Lambda, Load Balancer, Route53, RDS ,Cloudwatch)} \badge[darkgoldenrod]{Azure}} \\
+    \smallskip
+    \textbf{Operating System}{: \badge[darkgoldenrod]{Linux} \badge[darkgoldenrod]{Windows}} 
+    }
+ \end{itemize}
+
+\vspace{10pt} % Add space here after Technical Skills section
+
+
+%-----------PERSONAL PROJECTS------------
+\newpage % Start Personal Projects on a new page
+\section{Personal Projects}
+\vspace{5pt} % Add space here for a single line gap
+\smallskip
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{Automated CI/CD DevSecOps Pipeline for Java Web Application}}{}
+  \resumeItemListStart
+    \resumeItem{\textbf{Skills Utilized:} AWS, Jenkins, Docker, EKS, ArgoCD, SonarQube, Trivy.}
+    \resumeItem{\textbf{Description:} Developed and deployed a fully automated CI/CD DevSecOps pipeline for a Java web application leveraging Jenkins, AWS, GitHub, Docker, EKS, and ArgoCD. Integrated SonarQube for code quality analysis and Trivy for container security scanning.}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
 
   %----------CO-CURRICULARS-----------------
 \section{Certifications}
@@ -345,54 +376,10 @@ Developed a CI pipeline in Jenkins to automate testing and building processes, a
     %   {\textbf{Introduction to Sustainability} $|$ {Coursera}}{}
      \resumeItemListEnd
     \resumeSubHeadingListEnd
-%-----------PROGRAMMING SKILLS------------
-\section{Personal Projects}
-\smallskip
-\resumeSubHeadingListStart
-  \resumeProjectHeading
-    {\textbf{Automated CI/CD DevSecOps Pipeline for Java Web Application}}{}
-  \resumeItemListStart
-    \resumeItem{\textbf{Skills Utilized:} AWS, Jenkins, Docker, EKS, ArgoCD, SonarQube, Trivy.}
-    \resumeItem{\textbf{Description:} Developed and deployed a fully automated CI/CD DevSecOps pipeline for a Java web application leveraging Jenkins, AWS, GitHub, Docker, EKS, and ArgoCD. Integrated SonarQube for code quality analysis and Trivy for container security scanning.}
-  \resumeItemListEnd
-\resumeSubHeadingListEnd
 
 
 
-%-----------PROGRAMMING SKILLS------------
-\section{Technical Skills}
-\smallskip
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-    % \textbf{Frameworks}{: \badge[darkgoldenrod]{Django} \badge[darkgoldenrod]{Boostrap} \badge[darkgoldenrod]{Wix}  \badge[darkgoldenrod]{Android Studio}  \badge[darkgoldenrod]{Bootstrap} \badge[darkgoldenrod]{Django}} \\
-    % \smallskip
-     \textbf{Languages}{: \badge[darkgoldenrod]{Java} \badge[darkgoldenrod]{Python} \badge[darkgoldenrod]{ShellScript} \badge[darkgoldenrod]{SQL}  \badge[darkgoldenrod]{NoSQL(MongoDB)}  \badge[darkgoldenrod]{HTML} \badge[darkgoldenrod]{CSS}} \\
-     \smallskip
-    \textbf{Tools}{: \badge[darkgoldenrod]{Github}
-    \badge[darkgoldenrod]{Github Actions}
-    \badge[darkgoldenrod]{Jenkins} 
-    \badge[darkgoldenrod]{Docker}
-      \badge[darkgoldenrod]{Terraform} \badge[darkgoldenrod]{VS Code}  } \\
-   
-     } 
-    % \smallskip
-    %  \textbf{Libraries}{: \badge[darkgoldenrod]{Pandas} \badge[darkgoldenrod]{Numpy} \badge[darkgoldenrod]{Matplotlib} \badge[darkgoldenrod]{Tenserflow} \badge[darkgoldenrod]{LSTM}  \badge[darkgoldenrod]{Keras} \badge[darkgoldenrod]{Tkinter}
-    
-    %  } 
-     \smallskip
-     \textbf{Clouds}{: \badge[darkgoldenrod]{AWS (EC2, IAM, VPC, S3, Lambda, Load Balancer, Route53, RDS ,Cloudwatch)} \badge[darkgoldenrod]{Azure} 
-    
-    
-     } 
-     \smallskip
-     \textbf{Operating System}{: \badge[darkgoldenrod]{Linux} \badge[darkgoldenrod]{Windows}    
-    
-     } 
-     
-     
-    
-    }
- \end{itemize}
+
 %  %----------CO-CURRICULARS-----------------
 % \section{Co-Curriculars}
 
