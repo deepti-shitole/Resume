@@ -275,9 +275,9 @@ Engineering and Research ,Wagholi ,pune}{\small}
       {Associate Software Engineer}{}
       \resumeItemListStart
         \resumeItem{ \textbf{Project Experience - TVSM (TVS Motors)    $|$ Duration: 8 months} }
-        \resumeItem{ \textbf{Skills Utilized:}  Azure Cloud, Jenkins, Terraform.}
+        \resumeItem{ \textbf{Skills Utilized:}  AWS Cloud, Jenkins, Terraform.}
         \resumeItem{ \textbf{Roles and Responsibilities:} Designed and implemented CI/CD pipelines in Jenkins to automate build, test, and deployment processes for Java-based applications, resulting in increased efficiency and reduced time-to-market. }
-        \resumeItem{Collaborated with the team to develop Terraform scripts for provisioning and configuring Azure resources, contributing to the automation of infrastructure management and ensuring adherence to infrastructure as code (IaC) best practices. }
+        \resumeItem{Collaborated with the team to develop Terraform scripts for provisioning and configuring AWS resources, contributing to the automation of infrastructure management and ensuring adherence to infrastructure as code (IaC) best practices. }
         \resumeItem{ Troubleshooted and resolved issues related to build and deployment pipelines, ensuring smooth and reliable software delivery. }
       \resumeItemListEnd
     \resumeSubHeadingListEnd
@@ -307,19 +307,17 @@ Engineering and Research ,Wagholi ,pune}{\small}
 \smallskip
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: \badge[darkgoldenrod]{Java} \badge[darkgoldenrod]{Python} \badge[darkgoldenrod]{ShellScript} \badge[darkgoldenrod]{SQL}  \badge[darkgoldenrod]{NoSQL(MongoDB)}  \badge[darkgoldenrod]{HTML} \badge[darkgoldenrod]{CSS}} \\
+     \textbf{Languages}{: \badge[darkgoldenrod]{Java} \badge[darkgoldenrod]{ShellScript} \badge[darkgoldenrod]{SQL}    \badge[darkgoldenrod]{HTML} \badge[darkgoldenrod]{CSS}} \\
      \smallskip
     \textbf{Tools}{: \badge[darkgoldenrod]{Github}
     \badge[darkgoldenrod]{Github Actions}
     \badge[darkgoldenrod]{Jenkins} 
     \badge[darkgoldenrod]{Docker}
     \badge[darkgoldenrod]{Terraform} 
-    \badge[darkgoldenrod]{Grafana} 
-    \badge[darkgoldenrod]{Prometheus} 
     \badge[darkgoldenrod]{Ansible} % Added Ansible here
     \badge[darkgoldenrod]{VS Code}} \\
     \smallskip
-    \textbf{Clouds}{: \badge[darkgoldenrod]{AWS (EC2, IAM, VPC, S3, Lambda, Load Balancer, Route53, RDS ,Cloudwatch)} \badge[darkgoldenrod]{Azure}} \\
+    \textbf{Clouds}{: \badge[darkgoldenrod]{AWS(EC2, VPC, IAM, S3, Cloudwatch, Load balancer)} \badge[darkgoldenrod]{Azure}} \\
     \smallskip
     \textbf{Operating System}{: \badge[darkgoldenrod]{Linux} \badge[darkgoldenrod]{Windows}} 
     }
