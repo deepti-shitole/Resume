@@ -312,7 +312,6 @@ Engineering and Research ,Wagholi ,pune}{\small}
     \textbf{Tools}{: \badge[darkgoldenrod]{Github}
     \badge[darkgoldenrod]{Github Actions}
     \badge[darkgoldenrod]{Jenkins} 
-    \badge[darkgoldenrod]{Docker}
     \badge[darkgoldenrod]{Terraform} 
     \badge[darkgoldenrod]{Ansible} % Added Ansible here
     \badge[darkgoldenrod]{VS Code}} \\
