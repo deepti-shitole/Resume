@@ -332,10 +332,10 @@ Engineering and Research ,Wagholi ,pune}{\small}
 \smallskip
 \resumeSubHeadingListStart
   \resumeProjectHeading
-    {\textbf{Automated CI/CD DevSecOps Pipeline for Java Web Application}}{}
+    {\textbf{Deploy A highly Secure 3-Tier Infrastructure On AWS With Terraform And GitHub Action}}{}
   \resumeItemListStart
-    \resumeItem{\textbf{Skills Utilized:} AWS, Jenkins, Docker, EKS, ArgoCD, SonarQube, Trivy.}
-    \resumeItem{\textbf{Description:} Developed and deployed a fully automated CI/CD DevSecOps pipeline for a Java web application leveraging Jenkins, AWS, GitHub, Docker, EKS, and ArgoCD. Integrated SonarQube for code quality analysis and Trivy for container security scanning.}
+    \resumeItem{\textbf{Skills Utilized:} AWS, Terraform, Github action.}
+    \resumeItem{\textbf{Description:} This project focused on deploying a highly secure 3-tier architecture consisting of web, application, and database layers on AWS using Infrastructure as Code (IaC) principles with Terraform and CI/CD pipelines via GitHub Actions.}
   \resumeItemListEnd
 \resumeSubHeadingListEnd
 
