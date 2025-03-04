@@ -171,7 +171,7 @@
     \resumeSubHeadingListStart
         \item
         \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l }
-            \textbf{Phone:} +91 9307262811 & \textbf{Email:} \href{mailto:deeptishitole96@gmail.com}{deeptishitole96@gmail.com} \\
+            \textbf{Phone:} +91 9325729645 & \textbf{Email:} \href{mailto:deeptishitole96@gmail.com}{deeptishitole96@gmail.com} \\
             \textbf{GitHub:} \href{https://github.com/deepti-shitole}{https://github.com/deepti-shitole} & \textbf{LinkedIn:} \href{https://www.linkedin.com/in/deepti-shitole-a1b0b6224/}{linkedin.com/in/deepti-shitole} \\
             \textbf{Address:} At Post Patas, Daund, Pune & \textbf{Birth Date:} May 30, 2001 \\
         \end{tabular*}
