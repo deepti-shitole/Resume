@@ -274,7 +274,7 @@ Engineering and Research ,Wagholi ,pune}{\small}
       {Expleo Solutions Pvt. Ltd. Pune}{\emph{August 2023 -- August 2024}}
       {Associate Software Engineer}{}
       \resumeItemListStart
-        \resumeItem{ \textbf{Project Experience - TVSM (TVS Motors)    $|$ Duration: 8 months} }
+        \resumeItem{ \textbf{Project Experience - TVSM (TVS Motors)    } }
         \resumeItem{ \textbf{Skills Utilized:}  AWS Cloud, Jenkins, Terraform.}
         \resumeItem{ \textbf{Roles and Responsibilities:} Designed and implemented CI/CD pipelines in Jenkins to automate build, test, and deployment processes for Java-based applications, resulting in increased efficiency and reduced time-to-market. }
         \resumeItem{Collaborated with the team to develop Terraform scripts for provisioning and configuring AWS resources, contributing to the automation of infrastructure management and ensuring adherence to infrastructure as code (IaC) best practices. }
@@ -312,11 +312,12 @@ Engineering and Research ,Wagholi ,pune}{\small}
     \textbf{Tools}{: \badge[darkgoldenrod]{Github}
     \badge[darkgoldenrod]{Github Actions}
     \badge[darkgoldenrod]{Jenkins} 
+    \badge[darkgoldenrod]{SonarQube} 
     \badge[darkgoldenrod]{Terraform} 
     \badge[darkgoldenrod]{Ansible} % Added Ansible here
     \badge[darkgoldenrod]{VS Code}} \\
     \smallskip
-    \textbf{Clouds}{: \badge[darkgoldenrod]{AWS(EC2, VPC, IAM, S3, Cloudwatch, Load balancer)} \badge[darkgoldenrod]{Azure}} \\
+    \textbf{Clouds}{: \badge[darkgoldenrod]{AWS(EC2, VPC, IAM, S3, Load balancer, Cloudwatch )} \badge[darkgoldenrod]{Azure}} \\
     \smallskip
     \textbf{Operating System}{: \badge[darkgoldenrod]{Linux} \badge[darkgoldenrod]{Windows}} 
     }
@@ -338,6 +339,23 @@ Engineering and Research ,Wagholi ,pune}{\small}
     \resumeItem{\textbf{Description:} This project focused on deploying a highly secure 3-tier architecture consisting of web, application, and database layers on AWS using Infrastructure as Code (IaC) principles with Terraform and CI/CD pipelines via GitHub Actions.}
   \resumeItemListEnd
 \resumeSubHeadingListEnd
+
+\section{Soda Data Quality POC}
+\vspace{5pt} % Add space here for a single line gap
+\smallskip
+  \resumeSubHeadingListStart 
+  \resumeSubheading
+      {POC: Data Quality Monitoring with Soda Cloud}{}{}{}
+      \resumeItemListStart
+        \resumeItem{ Designed and implemented data quality checks using the Soda Cloud platform. }
+        \resumeItem{ Configured anomaly detection and missing value checks through YAML-based configurations and CLI. }
+        \resumeItem{ Integrated checks into Git workflows to enable automated quality validation during development. }
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+  
+
+
 
   %----------CO-CURRICULARS-----------------
 \section{Certifications}
